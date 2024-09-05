@@ -22,12 +22,33 @@
     width: 15rem;
 }
 
-
 a {
     color: black;
 }
 
-.main-header {
+main {
+    background-color: white;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+body {
     background-color: rgb(247, 247, 247);
+}
+
+header {  
+    padding: 30px;
+}
+
+header img {
+    float: right;
+    margin: 30px;
     
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
 }
