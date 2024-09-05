@@ -6,3 +6,13 @@
 * {
     background-color: rgb(247, 247, 247);
 }
+
+.container img {
+    max-width: 14rem;
+}
+
+.container {
+    display: inline-block;
+    width: 40%;
+    justify-content: space-between;
+}
