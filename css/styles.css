@@ -22,8 +22,9 @@
     width: 15rem;
 }
 
-nav {
-    text-transform: uppercase;
+
+a {
+    color: black;
 }
 
 .main-header {
