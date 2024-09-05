@@ -7,17 +7,26 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 768px) {
-     header {
+     body {
      background-color: green;
     }
 }
 
 @media screen and (min-width: 0px) and (max-width: 360px) {
-     header {
+     body {
     background-color: red;
     }
 }
 
 .container img {
     width: 15rem;
+}
+
+nav {
+    text-transform: uppercase;
+}
+
+.main-header {
+    background-color: rgb(247, 247, 247);
+    
 }
