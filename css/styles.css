@@ -19,6 +19,7 @@
 }
 
 .container img {
+    margin: 0 auto;
     width: 15rem;
 }
 
