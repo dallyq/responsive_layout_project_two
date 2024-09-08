@@ -8,11 +8,6 @@
     width: 15rem;
 }
 
-.main-header {
-    margin: 40px 0;
-    padding: 40px 0;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -28,13 +23,9 @@ body {
     background-color: rgb(247, 247, 247);
 }
 
-header {  
-    padding: 30px;
-}
-
 header img {
-    float: right;
-    margin: 30px; 
+    display: block;
+    margin-left: auto;
 }
 
 li {
