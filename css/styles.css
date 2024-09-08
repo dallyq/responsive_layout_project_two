@@ -52,7 +52,7 @@ header img {
     margin: 30px; 
 }
 
-nav {
+.main-nav {
     position: absolute;
     top: 0px;
     right: 0px;
