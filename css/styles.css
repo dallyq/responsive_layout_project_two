@@ -117,9 +117,17 @@ footer {
     */
 
 @media (min-width: 768px) {
-    .top-nav {
-        margin-top: 0;
-    }
+container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: calc(50% - 20px)
+}
+
+.top-nav {
+    margin-top: 0;
 }
 
 .top-nav li {
@@ -145,17 +153,8 @@ footer {
     display: inline-block;
     margin-left: 20px;
 }
- 
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.col {
-    flex-basis: calc(50% - 20px)
-}
 */
+}
 
 @media (min-width: 1024px) {
 nav {
@@ -168,10 +167,9 @@ nav {
     width: initial;
     margin-bottom: 0;
     }
-/*Might not be added
+
 .col {
     flex-basis: calc(33.333% - 20px)
 }
-*/
 }
 
