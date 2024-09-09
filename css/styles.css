@@ -1,11 +1,11 @@
-.main-nav {
-    flex-direction: row;
-    text-align: right;
+/*According to the Walkthrough*/
+* {
+    box-sizing: border-box;
 }
 
-.container img {
+body {
     margin: 0 auto;
-    width: 15rem;
+    max-width: 1024px;
 }
 
 a {
@@ -13,55 +13,76 @@ a {
     text-decoration: none;
 }
 
-main {
-    background-color: white;
-    margin: 0 30px;
-    padding: 10px;
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 
-body {
-    background-color: rgb(247, 247, 247);
+nav {
+    font-family: "Roboto", Arial, Verdana;
+    font-weight: 400;
+    letter-spacing: .05em;
+    background-color: #829356;
+    padding: 25px;
 }
 
-header img {
-    display: block;
-    margin-left: auto;
-}
-
-li {
-    display: inline-block;
-    padding: 10px;
- }
-
- footer {
+h1, .top-nav {
     text-align: center;
- }
-
- @media screen and (max-width: 1024px) {
-    body {
-        background-color: greenyellow;
-    }
-
-    .container {
-        display: inline-block;
-        width: 40%;
-        justify-content: space-between;
-        }
 }
 
-@media screen and (max-width: 768px) {
-    body {
-    background-color: yellow;
+.top-nav, .top-nav li {
+    width: 100%;
+}
+
+h1 a, .top-nav a {
+    color: #000;
+}
+
+.top-nav {
+    margin-top: 30px;
+}
+
+.top-nav li {
+    padding: 10px 0;
+    margin: 5px auto;
+    background-color: #fff;
+}
+
+.top-nav a {
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .top-nav {
+        margin-top: 0;
     }
 }
 
-@media screen and (max-width: 360px) {
-    body {
-    background-color: orange;
-    }
-    .main-nav {
+.top-nav li {
+    display: inline-block;
+    width: auto;
+    margin-right: 15px;
+    background-color: transparent;
+}
+
+.top-nav li:last-child {
+    margin-right: 0
+}
+
+.top-nav a {
+    color: #fff;
+}
+
+@media (min-width: 1024px) {
+    nav {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
     }
+
+    .top-nav, .top-nav li {
+        width: initial;
+        margin-bottom: 0;
+    }
 }
+
