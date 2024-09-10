@@ -4,40 +4,55 @@
     padding: 0;
 }
 
-.col {
-    margin: 10px;
-    min-height: 250px;
-    color: white;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-main {
-    background-color: white;
-}
-
+/*Header
 body {
     margin: 0 auto;
     max-width: 1024px;
-    background-color: #f5f5f5;
 }
+*/
+/*Or Footer
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: #093145;    
+}
+*/
 
+/*Header
 ul {
     list-style: none;
     padding-left: 0;
 }
+*/
 
+/*Or Footer
+ul {
+    list-style: none;
+}
+*/
+
+/* Header
+a {
+    text-decoration: none;
+}
+*/
+
+/* Or Footer
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
+*/
 
 nav {
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: #f5f5f5;
+    background-color: #829356;
     padding: 25px;
 }
 
@@ -67,6 +82,22 @@ h1 a, .top-nav a {
     text-transform: uppercase;
 }
 
+.container {
+    max-width: 1100px;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col {
+    margin: 10px;
+    min-height: 250px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 5px;
+}
+
 .box-1 {
     background-color: #093145;
 }
@@ -91,45 +122,57 @@ h1 a, .top-nav a {
     background-color: #9a2617;
 }
 
-.contact {
-    text-align: center;
-}
-
-@media (min-width: 320px) {
-.container {
+footer {
     display: flex;
-    flex-wrap: wrap;
-}
-
-.col {
-    flex-basis: calc(50% - 20px)
-}
-
-.top-nav {
-    margin-top: 0;
-}
-
-.top-nav li {
-    display: inline-block;
-    width: auto;
-    margin-right: 15px;
-    background-color: transparent;
-}
-
-.top-nav li:last-child {
-    margin-right: 0
-}
-
-.top-nav a {
-    color: black;
-}
-
-.top {
-    display: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding: 0 20px;
+    height: 100px;
+    background-color: #107896;
 }
 
 .full {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+.container {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: calc(50% - 20px);
+}
+
+/*Footer
+ .top {
+    display: none;
+}
+    
+.full {
     display: inline-block;
     margin-left: 20px;
+}
+*/
+
+@media (min-width: 1024px) {
+/* Header
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        
+.top-nav, .top-nav li {
+    width: initial;
+    margin-bottom: 0;
+}
+*/
+
+.col {
+    flex-basis: calc (33.333% - 20px);
 }
 }
