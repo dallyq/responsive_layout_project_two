@@ -1,20 +1,8 @@
-/*According to the Walkthrough*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
- /*<Might not need this
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    background-color: #093145;    
-}
-*/
 
 .col {
     margin: 10px;
@@ -24,9 +12,14 @@ body {
     letter-spacing: 1px;
 }
 
+main {
+    background-color: white;
+}
+
 body {
     margin: 0 auto;
     max-width: 1024px;
+    background-color: #f5f5f5;
 }
 
 ul {
@@ -37,14 +30,14 @@ ul {
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: white;
+    color: black;
 }
 
 nav {
     font-family: "Roboto", Arial, Verdana;
     font-weight: 400;
     letter-spacing: .05em;
-    background-color: #829356;
+    background-color: #f5f5f5;
     padding: 25px;
 }
 
@@ -97,17 +90,10 @@ h1 a, .top-nav a {
 .box-6 {
     background-color: #9a2617;
 }
-/* May not use
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: auto;
-    padding: 0 20px;
-    height: 100px;
-    background-color: #107896;
+
+.contact {
+    text-align: center;
 }
-    */
 
 @media (min-width: 320px) {
 .container {
@@ -135,9 +121,9 @@ footer {
 }
 
 .top-nav a {
-    color: #fff;
+    color: black;
 }
- /*May not be added
+
 .top {
     display: none;
 }
@@ -145,23 +131,5 @@ footer {
 .full {
     display: inline-block;
     margin-left: 20px;
-}
-*/
-}
-
-@media (min-width: 768px) {
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
-
- .top-nav, .top-nav li {
-    width: initial;
-    margin-bottom: 0;
-    }
-
-.col {
-    flex-basis: calc(33.333% - 20px)
 }
 }
