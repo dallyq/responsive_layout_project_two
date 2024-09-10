@@ -11,11 +11,9 @@
 .top-nav li {
     display: inline-block;
     padding: 10px;
-    clear: right;
 }
 
 h1 {
-    display: inline-block;
     float: left;
 }
 
