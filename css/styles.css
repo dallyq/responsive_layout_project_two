@@ -13,14 +13,6 @@ main {
     background-color: white;
 }
 
-.main-header p {
-    color: darkgrey;
-    text-align: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-
 /*Header
 body {
     margin: 0 auto;
@@ -53,7 +45,7 @@ a {
 
 nav {
     font-family: "Roboto", Arial, Verdana;
-    font-weight: 400;
+    font-weight: 200;
     letter-spacing: .05em;
     background-color: #f8f8f8;
     padding: 15px 15px;
@@ -139,6 +131,23 @@ img {
     margin-top: 20px;
     width: 70%;
 }
+
+.main-header p {
+    color: darkgrey;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
