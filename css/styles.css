@@ -6,10 +6,19 @@
 
 body {
     background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
 }
 
 main {
     background-color: white;
+}
+
+.main-header p {
+    color: darkgrey;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 /*Header
