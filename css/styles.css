@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-header {
-    padding-bottom: 20px;
-}
-
 body {
     background-color: #f8f8f8;
     font-family: 'Roboto', sans-serif;
@@ -15,6 +11,10 @@ body {
 
 main {
     background-color: white;
+}
+
+h3 {
+    font-size: 1rem;
 }
 
 h4 {
@@ -70,6 +70,10 @@ nav {
     font-family: 'Roboto', sans-serif;
 }
 
+.container p {
+    padding: 10px 5px;
+}
+
 .col {
     min-height: 250px;
     color: darkslategrey;
@@ -79,6 +83,15 @@ nav {
 }
 .contact {
     text-align: center;
+    color: darkslategrey;
+}
+
+.contact p {
+    color: grey;
+}
+
+hr.new {
+    color: darkslategrey;
 }
 
 footer {
@@ -125,9 +138,18 @@ img {
 h3 {
     text-align: center;
     margin-top: 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 45px;
+    padding-bottom: 20px;
     font-weight: bold;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+.contact {
+    margin-top: 10px;
+    margin-bottom: 70px;
 }
 
 }
