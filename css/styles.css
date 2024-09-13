@@ -13,7 +13,7 @@ main {
     background-color: white;
 }
 
-h3 {
+h2, h3 {
     font-size: 1rem;
 }
 
@@ -81,18 +81,23 @@ nav {
     letter-spacing: 1px;
     padding-top: 5px;
 }
+
 .contact {
     text-align: center;
-    color: darkslategrey;
+    color: grey;
 }
 
 .contact p {
     color: grey;
 }
 
-hr.new {
-    color: darkslategrey;
+/*
+hr {
+    color: grey;
+    margin-right: 15px;
+    margin-left: 15px;
 }
+*/
 
 footer {
     display: flex;
@@ -135,7 +140,7 @@ img {
     margin-left: 20px;
 }
 
-h3 {
+h2, h3 {
     text-align: center;
     margin-top: 0px;
     padding-top: 45px;
@@ -174,8 +179,8 @@ h1 {
     flex-wrap: wrap;
 }
 
-.col {
-    flex-basis: calc(50% - 20px);
+.full {
+    display: none;
 }
 
 /*Footer
