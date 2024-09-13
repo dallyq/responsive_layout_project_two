@@ -190,7 +190,7 @@ footer a {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-h1 {
+h1, h3 {
     text-align: center;
 }
 
@@ -204,16 +204,41 @@ h1 {
     padding: 10px;
 }
 
+header img {
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 100%;
+    height: auto;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
 }
 
-/*Footer
- .top {
+.container img {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.full {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.top {
     display: none;
 }
-    
+
+/*Footer    
 .full {
     display: inline-block;
     margin-left: 20px;
