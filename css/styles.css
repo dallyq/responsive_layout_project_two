@@ -17,6 +17,10 @@ main {
     background-color: white;
 }
 
+h4 {
+    font-weight: bold;
+}
+
 /*Header
 body {
     margin: 0 auto;
