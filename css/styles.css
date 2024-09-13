@@ -13,11 +13,11 @@ main {
     background-color: white;
 }
 
-h2, h3 {
-    font-size: 1rem;
+h2, h3, .top, .full {
+    font-size: 0.9rem;
 }
 
-h4 {
+h1, h4 {
     font-weight: bold;
 }
 
@@ -49,6 +49,7 @@ a {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
+    font-size: 0.9rem;
 }
 
 nav {
@@ -68,10 +69,6 @@ nav {
     padding: 10px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
-}
-
-.container p {
-    padding: 10px 5px;
 }
 
 .col {
@@ -128,6 +125,8 @@ img {
     display: block;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
     width: 100%;
     height: auto;
 }
@@ -142,9 +141,8 @@ img {
 
 h2, h3 {
     text-align: center;
-    margin-top: 0px;
-    padding-top: 45px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     font-weight: bold;
 }
 
@@ -155,6 +153,15 @@ h4 {
 .contact {
     margin-top: 10px;
     margin-bottom: 70px;
+}
+
+.container p {
+    padding: 10px 5px;
+    padding-bottom: 50px;
+}
+
+.full {
+    display: none;
 }
 
 }
@@ -177,10 +184,6 @@ h1 {
 .container {
     display: flex;
     flex-wrap: wrap;
-}
-
-.full {
-    display: none;
 }
 
 /*Footer
