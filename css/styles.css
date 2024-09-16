@@ -168,10 +168,22 @@ h4 {
     margin-bottom: 70px;
 }
 
+.container {
+    text-align: center;
+}
+
 .container p {
     padding: 10px 5px;
     padding-bottom: 30px;
     font-size: 0.9rem;
+}
+
+.col-box {
+    flex: 1;
+}
+
+.col-box {
+    flex: 2;
 }
 
 footer {
@@ -190,6 +202,10 @@ footer a {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
+.container {
+    display: flex;
+}
+
 h1, h3 {
     text-align: center;
 }
@@ -220,13 +236,13 @@ header img {
 }
 
 .container img {
-    display: inline-block;
     width: 100%;
     height: auto;
 }
 
 .contact {
-    padding: 10px 5px;
+    padding: 0 5px;
+    padding-bottom: 40px;
 }
 
 .contact p {
@@ -240,6 +256,13 @@ header img {
 
 .top {
     display: none;
+}
+
+footer {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 80px;
 }
 
 /*Footer    
