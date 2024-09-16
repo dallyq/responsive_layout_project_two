@@ -176,14 +176,6 @@ h4 {
     font-size: 0.9rem;
 }
 
-.col-box {
-    flex: 1;
-}
-
-.col-box {
-    flex: 2;
-}
-
 footer {
     padding: 0 15px;
     height: 80px;
@@ -242,6 +234,11 @@ header img {
     height: auto;
 }
 
+.container {
+    align-content:space-between;
+
+}
+
 .contact {
     padding-right: 5px;
     padding-left: 5px;
@@ -276,14 +273,8 @@ footer {
 */
 
 @media (min-width: 768px) and (max-width: 1500px) {
-nav li {
+.top-nav {
     text-align: right;
-}
-
-.col-box-1, .col-box-2, .col-box-3 {
-    display: inline-block;
-    flex-direction: row;
-    flex-wrap: space-between;
 }
 
 /*
