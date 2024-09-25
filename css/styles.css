@@ -11,239 +11,108 @@ body {
 
 main {
     background-color: white;
-}
-
-h2, h3, .top, .full {
-    font-size: 0.9rem;
-    color: black;
-}
-
-h1, h4 {
-    font-weight: bold;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
+    padding-bottom: 40px;
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: darkslategray;
     font-weight: bold;
     font-size: 0.9rem;
 }
 
-h1, .top-nav {
+h1 {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    padding: 10px;
 }
 
 .top-nav {
-    margin-top: 15px;
+    text-align: center;
+    font-size: 1.2rem;
 }
     
 .top-nav li {
     padding: 8px 0;
     margin: 5px auto;
     background-color: #fff;
+    text-transform: uppercase;
 }  
 
 nav {
-    font-weight: 200;
     letter-spacing: .05em;
     background-color: #f8f8f8;
     padding: 15px 15px;
 }
 
-.top-nav a {
-    text-transform: uppercase;
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
-.container {
-    padding: 10px;
-    margin: 0 auto;
-}
-
-.col {
-    min-height: 250px;
-    color: darkslategrey;
+.main-header p {
+    color: darkgrey;
     text-align: center;
-    letter-spacing: 1px;
-    padding-top: 5px;
+    font-size: 1rem;
+    padding: 0 10px 50px 10px;
+}
+
+.portfolio {
+    color: darkslategray;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 0.9rem;
+}
+
+.header-c {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 0.9rem;
+    color: darkslategray;
+}
+
+.container img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 0px 10px;
+}
+
+.container p, h4 {
+    text-align: center;
+    color: darkslategray;
+    margin: 20px 0 20px 0px;
 }
 
 .contact {
     text-align: center;
     color: grey;
     font-size: 0.9rem;
-}
-
-.contact p {
-    color: grey;
+    padding-bottom: 60px;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: auto;
     background-color: #f8f8f8;
+    padding: 20px;
 } 
-
-header img {
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 60px;
-    padding-left: 60px;
-    width: 100%;
-    height: auto;
-}
-
-.container img {
-    max-width: 1100px;
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    padding-right: 5px;
-    padding-left: 5px;
-    width: 100%;
-    height: auto;
-}
-
-.main-header p {
-    color: darkgrey;
-    text-align: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    font-size: 0.9rem;
-}
-
-h2, h3 {
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    font-weight: bold;
-}
-
-h4 {
-    padding-top: 10px;
-    padding-bottom: 8px;
-}
-
-.contact {
-    margin-top: 10px;
-    margin-bottom: 70px;
-}
-
-.container {
-    text-align: center;
-}
-
-.container p {
-    padding: 10px 5px;
-    padding-bottom: 30px;
-    font-size: 0.9rem;
-}
-
-footer {
-    padding: 0 15px;
-    height: 80px;
-}
 
 footer a {
     font-size: 0.8rem;
 }
 
-.full {
-    display: none;
-}
-
-}
-
-@media (min-width: 320px) and (max-width: 768px) {
-.container {
-    display: flex;
-}
-}
-h1, h3 {
-    text-align: center;
-}
-
-h3 {
-    padding-top: 30px;
-    padding-bottom: 20px;
-}
-
-.top-nav {
-    text-align: center;
-}
-
-.top-nav li {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px;
-}
-
-header {
-    padding-bottom: 80px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-header img {
-    width: 220px;
-    height: 123px;
-    margin-left: 20px;
-    float: right;
-}
-
-.container img {
-    width: 100%;
-    height: auto;
-}
-
-.container {
-    align-content:space-between;
-
-}
-
-.contact {
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 50px;
-}
-
-.contact p {
-    padding: 0px 40px;
-}
-
-.full {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.top {
-    display: none;
-}
-
-footer {
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-bottom: 80px;
-}
-
-@media (min-width: 768px) and (max-width: 1500px) {
-.top-nav {
-    text-align: right;
+li {
+    list-style: none;
 }
 
 .full {
     display: none;
-}
 }
