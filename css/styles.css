@@ -22,24 +22,6 @@ h1, h4 {
     font-weight: bold;
 }
 
-/*Header
-body {
-    margin: 0 auto;
-    max-width: 1024px;
-}
-*/
-
-/*Footer
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    background-color: #f8f8f8;    
-}
-*/
-
 ul {
     list-style: none;
     padding-left: 0;
@@ -52,6 +34,21 @@ a {
     font-weight: bold;
     font-size: 0.9rem;
 }
+
+h1, .top-nav {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.top-nav {
+    margin-top: 15px;
+}
+    
+.top-nav li {
+    padding: 8px 0;
+    margin: 5px auto;
+    background-color: #fff;
+}  
 
 nav {
     font-weight: 200;
@@ -87,37 +84,13 @@ nav {
     color: grey;
 }
 
-/*
-hr {
-    color: grey;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-*/
-
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: auto;
     background-color: #f8f8f8;
-}
-
-@media (min-width: 0px) and (max-width: 320px) {
-h1, .top-nav {
-    text-align: center;
-    font-size: 1.2rem;
-}
-
-.top-nav {
-    margin-top: 15px;
-}
-    
-.top-nav li {
-    padding: 8px 0;
-    margin: 5px auto;
-    background-color: #fff;
-}   
+} 
 
 header img {
     display: block;
@@ -195,7 +168,7 @@ footer a {
 .container {
     display: flex;
 }
-
+}
 h1, h3 {
     text-align: center;
 }
@@ -265,23 +238,10 @@ footer {
     padding-bottom: 80px;
 }
 
-/*Footer    
-.full {
-    display: inline-block;
-    margin-left: 20px;
-}
-*/
-
 @media (min-width: 768px) and (max-width: 1500px) {
 .top-nav {
     text-align: right;
 }
-
-/*
-.col {
-    width: calc (33.333% - 20px);
-}
-*/
 
 .full {
     display: none;
