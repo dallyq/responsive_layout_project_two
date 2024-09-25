@@ -24,8 +24,9 @@ a {
 
 h1 {
     text-align: center;
-    font-size: 1.6rem;
-    padding: 10px;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+    font-weight: bold;
 }
 
 .top-nav {
@@ -58,7 +59,7 @@ header img {
 .main-header p {
     color: darkgrey;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 0 10px 50px 10px;
 }
 
@@ -71,8 +72,8 @@ header img {
 }
 
 .header-c {
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 10px;
     font-size: 0.9rem;
     color: darkslategray;
 }
@@ -87,7 +88,12 @@ header img {
 .container p, h4 {
     text-align: center;
     color: darkslategray;
-    margin: 20px 0 20px 0px;
+    margin: 20px;
+}
+
+.container p {
+    font-size: 0.9rem;
+    padding-bottom: 10px;
 }
 
 .contact {
@@ -95,6 +101,8 @@ header img {
     color: grey;
     font-size: 0.9rem;
     padding-bottom: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 footer {
