@@ -5,13 +5,17 @@
     font-family: "Roboto", Arial, Verdana;
 }
 
+.container p, footer a, .header-c, .portfolio, 
+.main-header p, .top-nav li, .contact {
+    font-size: 0.9rem;
+}
+
 body {
     background-color: #f8f8f8;
 }
 
 main {
     background-color: white;
-    padding-bottom: 40px;
 }
 
 a {
@@ -19,39 +23,27 @@ a {
     text-transform: uppercase;
     color: darkslategray;
     font-weight: bold;
-    font-size: 0.9rem;
 }
 
 h1 {
     text-align: center;
-    font-size: 1.3rem;
     padding-bottom: 15px;
     font-weight: bold;
 }
 
-.top-nav {
-    text-align: center;
-    font-size: 1.2rem;
-}
-    
 .top-nav li {
-    padding: 8px 0;
-    margin: 5px auto;
-    background-color: #fff;
     text-transform: uppercase;
 }  
 
 nav {
-    letter-spacing: .05em;
     background-color: #f8f8f8;
-    padding: 15px 15px;
+    padding-top: 15px;
 }
 
 header img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
     margin-top: 20px;
     margin-bottom: 25px;
 }
@@ -59,8 +51,6 @@ header img {
 .main-header p {
     color: darkgrey;
     text-align: center;
-    font-size: 0.9rem;
-    padding: 0 10px 50px 10px;
 }
 
 .portfolio {
@@ -68,21 +58,14 @@ header img {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 0.9rem;
 }
 
 .header-c {
-    padding-top: 50px;
-    padding-bottom: 10px;
-    font-size: 0.9rem;
     color: darkslategray;
 }
 
 .container img {
-    display: block;
-    margin: auto;
     width: 300px;
-    padding: 0px 10px;
 }
 
 .container p, h4 {
@@ -91,15 +74,47 @@ header img {
     margin: 20px;
 }
 
-.container p {
-    font-size: 0.9rem;
-    padding-bottom: 10px;
-}
-
 .contact {
     text-align: center;
     color: grey;
+}
+
+li {
+    list-style: none;
+}
+
+@media screen and (max-width: 320px) {
+.top-nav li {
+    padding: 8px 0;
+    margin: 5px auto;
+    background-color: #fff;
+    text-transform: uppercase;
+}  
+
+.top-nav {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+header img {
+    width: 200px;
+}
+
+.main-header p {
     font-size: 0.9rem;
+    padding: 0 10px 50px 10px;
+}
+
+.header-c {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.container img {
+    padding: 0px 10px;
+}
+
+.contact {
     padding-bottom: 60px;
     padding-left: 10px;
     padding-right: 10px;
@@ -111,16 +126,19 @@ footer {
     align-items: center;
     background-color: #f8f8f8;
     padding: 20px;
-} 
-
-footer a {
-    font-size: 0.8rem;
-}
-
-li {
-    list-style: none;
 }
 
 .full {
     display: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+.top-nav li {
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 1024px) {
+
 }
