@@ -94,6 +94,7 @@ li {
 .top-nav {
     text-align: center;
     font-size: 1.2rem;
+    margin: 0px 10px;
 }
 
 header img {
@@ -112,6 +113,10 @@ header img {
 
 .container img {
     padding: 0px 10px;
+}
+
+.container {
+    padding-bottom: 30px;
 }
 
 .contact {
