@@ -47,16 +47,12 @@ nav {
     padding-top: 15px;
 }
 
-header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 25px;
-}
-
 .main-header p {
     color: darkgrey;
+}
+
+.intro-img {
+    float: right;
 }
 
 .portfolio {
@@ -96,6 +92,11 @@ li {
 
 header img {
     width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .main-header p {
@@ -109,6 +110,12 @@ header img {
 }
 
 .container img {
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 0px 10px;
 }
 
@@ -139,6 +146,7 @@ footer {
 .top-nav li {
     text-align: center;
 }
+
 }
 
 @media screen and (max-width: 1024px) {
