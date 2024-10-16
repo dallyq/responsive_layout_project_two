@@ -47,12 +47,16 @@ nav {
     padding-top: 15px;
 }
 
+header img {
+
+}
+
 .main-header p {
     color: darkgrey;
 }
 
-.intro-img {
-    float: right;
+.intro p {
+    clear:both;
 }
 
 .portfolio {
@@ -91,7 +95,6 @@ li {
 }
 
 header img {
-    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -144,11 +147,25 @@ footer {
 
 @media screen and (max-width: 768px) {
 .top-nav li {
+    display: inline;
     text-align: center;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.intro-p {
+    padding: 30px 10px 0px 10px;
 }
 
 }
 
 @media screen and (max-width: 1024px) {
+    .main-header {
+        display: flex;
+        flex-direction: row-reverse;
+    }
 
 }
