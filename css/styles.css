@@ -18,15 +18,22 @@ main {
     background-color: white;
 }
 
+a, .portfolio, .header-c, .container p, h4 {
+     color: darkslategray;
+}
+
 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: darkslategray;
     font-weight: bold;
 }
 
-h1 {
+h1, .main-header p, .portfolio, .container,
+.contact {
     text-align: center;
+}
+
+h1 {
     padding-bottom: 15px;
     font-weight: bold;
 }
@@ -50,18 +57,11 @@ header img {
 
 .main-header p {
     color: darkgrey;
-    text-align: center;
 }
 
 .portfolio {
-    color: darkslategray;
-    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-}
-
-.header-c {
-    color: darkslategray;
 }
 
 .container img {
@@ -69,13 +69,10 @@ header img {
 }
 
 .container p, h4 {
-    text-align: center;
-    color: darkslategray;
     margin: 20px;
 }
 
 .contact {
-    text-align: center;
     color: grey;
 }
 
