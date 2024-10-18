@@ -191,9 +191,23 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-    .main-header {
-        display: flex;
-        flex-direction: row-reverse;
+h1{
+    display: inline;
+    flex-direction: row-reverse;
+}
+
+nav {
+    display: inline;
+    flex-direction: row-reverse;
+}
+
+    .top {
+        display: none;
+    }
+    
+    .full {
+        display: inline;
+        padding: 0px 15px;
     }
 
 }
