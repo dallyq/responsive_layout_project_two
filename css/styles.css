@@ -175,6 +175,19 @@ h1 {
     flex-basis: 40%;
 }
 
+.top {
+    display: none;
+}
+
+.full {
+    display: inline;
+    padding: 0px 15px;
+}
+
+footer {
+    padding-bottom: 70px;
+}
+
 }
 
 @media screen and (min-width: 1024px) {
