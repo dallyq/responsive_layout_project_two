@@ -32,6 +32,7 @@ main {
 }
 
 header img {
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -134,24 +135,36 @@ li {
     list-style: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+h1 {
+    margin: 30px 0px 10px 0px;
+}
+
 .top-nav li {
+    background-color: #f8f8f8;
     display: inline;
-    text-align: center;
+    padding: 0px 15px;
 }
 
 .main-header {
     display: flex;
     flex-direction: row-reverse;
+    padding-right: 20px;
 }
 
 .intro-p {
-    padding: 30px 10px 0px 10px;
+    margin-top: 20px;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
 
 }
 
-@media screen and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1024px) {
     .main-header {
         display: flex;
         flex-direction: row-reverse;
