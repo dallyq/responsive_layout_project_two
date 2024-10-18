@@ -159,7 +159,20 @@ h1 {
 .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.col-box-1, .col-box-2 {   
+    flex-basis: 40%;
+}
+
+.col-box-3, .col-box-4 {   
+    flex-basis: 40%;
+}
+
+.col-box-5, .col-box-6 {   
+    flex-basis: 40%;
 }
 
 }
