@@ -74,6 +74,10 @@ nav {
     padding-top: 15px;
 }
 
+a:hover {
+    color: lightskyblue;
+}
+
 .main-header p {
     font-size: 0.9rem;
     padding: 0 10px 50px 10px;
