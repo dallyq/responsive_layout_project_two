@@ -11,7 +11,7 @@
 }
 
 .container p, footer a, .header-c, .portfolio, 
-.main-header p, .top-nav li, #contact {
+.main-header p, .top-nav li, #contact, #skills {
     font-size: 0.9rem;
 }
 
@@ -45,7 +45,7 @@ header img {
     margin-bottom: 20px;
 }
 
-a, #portfolio, .header-c, .container p, h4 {
+a, #portfolio, .header-c, .container p, h4, #skills {
      color: darkslategray;
 }
 
@@ -56,7 +56,7 @@ a {
 }
 
 h1, .main-header p, #portfolio, .container,
-#contact {
+#contact, #skills {
     text-align: center;
 }
 
