@@ -29,7 +29,7 @@
 }
 
 body {
-    background-color: #f8f8f8;
+    background-color: rgb(230, 246, 255);
 }
 
 main {
@@ -46,7 +46,7 @@ header img {
 }
 
 a, #portfolio, .header-c, .container p, h4, #skills {
-     color: darkslategray;
+     color: black;
 }
 
 a {
@@ -70,7 +70,7 @@ h1 {
 }  
 
 nav {
-    background-color: #f8f8f8;
+    background-color: rgb(230, 246, 255);
     padding-top: 15px;
 }
 
@@ -81,7 +81,6 @@ a:hover {
 .main-header p {
     font-size: 0.9rem;
     padding: 0 10px 50px 10px;
-    color: darkgrey;
 }
 
 .header-c {
@@ -125,14 +124,13 @@ a:hover {
     padding-bottom: 60px;
     padding-left: 10px;
     padding-right: 10px;
-    color: grey;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8f8f8;
+    background-color: rgb(230, 246, 255);
     padding: 20px;
 }
 
