@@ -101,7 +101,7 @@ nav {
 
 
 .intro p {
-    clear:both;
+    clear: both;
 }
 
 .portfolio {
@@ -133,7 +133,7 @@ footer {
 }
 
 .full {
-    display: none;
+    display: none; /* Removed footer navigation so that it's not too busy */
 }
 
 li {
@@ -169,19 +169,19 @@ h1 {
 }
 
 .col-box-1, .col-box-2 {   
-    flex-basis: 45%;
+    flex-basis: 45%; /* Space within the flex box so that two items are next to each other */
 }
 
 .col-box-3, .col-box-4 {   
-    flex-basis: 45%;
+    flex-basis: 45%;  /* Space within the flex box so that two items are next to each other */
 }
 
 .col-box-5, .col-box-6 {   
-    flex-basis: 45%;
+    flex-basis: 45%;  /* Space within the flex box so that two items are next to each other */
 }
 
 .top {
-    display: none;
+    display: none; /* Not necessary to have this button at the screen size */
 }
 
 .full {
@@ -190,7 +190,7 @@ h1 {
 }
 
 footer {
-    padding-bottom: 70px;
+    padding-bottom: 70px;  /* Added space at the bottom so that it looks more visually appealing */
 }
 
 }
@@ -227,15 +227,15 @@ body {
 }
 
 .col-box-1, .col-box-2, .col-box-3 {   
-    flex-basis: 30%;
+    flex-basis: 30%;  /* Space within the flex box so that three items are next to each other */
 }
 
 .col-box-4, .col-box-5, .col-box-6 {   
-    flex-basis: 30%;
+    flex-basis: 30%; /* Space within the flex box so that three items are next to each other */
 }
 
 .top {
-    display: none;
+    display: none; /* Not necessary to have this button at the screen size */
 }
 
 footer {
