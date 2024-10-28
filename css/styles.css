@@ -11,7 +11,7 @@
 }
 
 .container p, footer a, .header-c, .portfolio, 
-.main-header p, .top-nav li, .contact {
+.main-header p, .top-nav li, #contact {
     font-size: 0.9rem;
 }
 
@@ -45,7 +45,7 @@ header img {
     margin-bottom: 20px;
 }
 
-a, .portfolio, .header-c, .container p, h4 {
+a, #portfolio, .header-c, .container p, h4 {
      color: darkslategray;
 }
 
@@ -55,8 +55,8 @@ a {
     font-weight: bold;
 }
 
-h1, .main-header p, .portfolio, .container,
-.contact {
+h1, .main-header p, #portfolio, .container,
+#contact {
     text-align: center;
 }
 
@@ -104,7 +104,7 @@ nav {
     clear: both;
 }
 
-.portfolio {
+#portfolio {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -117,7 +117,7 @@ nav {
     margin: 20px;
 }
 
-.contact {
+#contact {
     padding-bottom: 60px;
     padding-left: 10px;
     padding-right: 10px;
@@ -215,7 +215,7 @@ body {
     padding: 0px 20px 0px 20px;
 }
 
-.portfolio {
+#portfolio {
     padding-top: 40px;
 }
 
